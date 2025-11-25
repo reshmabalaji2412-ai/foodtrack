@@ -23,7 +23,7 @@ jobs:
 
       - name: Unzip project
         run: |
-          unzip foodtrack_full_project.zip -d project
+          unzip foodtrack_full_project (2).zip -d project
           ls -R project
 
       - name: Get dependencies
